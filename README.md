@@ -1,7 +1,7 @@
 # Retail Sales & Supply Chain Analysis
 
 **Author:** Muhammet Berke Ağaya
-**Student ID:** 5001230021
+
 
 ## Project Overview
 
@@ -105,8 +105,8 @@ def find_empty_cells(file_path, output_file, highlight=False):
     workbook.save(output_file)
     print(f"\nProcess completed. Results saved to '{output_file}'.")
 
-input_file = r"C:\\Users\\berke\\OneDrive\\Masaüstü\\archive\\Retail-Supply-Chain-Sales-Dataset.xlsx"
-output_file = r"C:\\Users\\berke\\OneDrive\\Masaüstü\\archive\\Retail-Supply-Chain-Sales-Dataset_analyzed.xlsx"
+input_file = r"Retail-Supply-Chain-Sales-Dataset.xlsx"
+output_file = r"Retail-Supply-Chain-Sales-Dataset_analyzed.xlsx"
 
 find_empty_cells(input_file, output_file, highlight=True)
 ```
